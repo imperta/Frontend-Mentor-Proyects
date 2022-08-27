@@ -7,15 +7,11 @@
         flex-direction: column-reverse;
         width: 100%;
     }
-    img{
-        mix-blend-mode: multiply;
-        opacity: 75%;
-    }
 }
 
 
 header{
-    font-size: 11px; text-align: center;
+    font-size: 7px; text-align: center;
     color: hsl(228, 45%, 44%);
     padding-top: 3rem;
 }
@@ -49,9 +45,14 @@ body{
     /* box-shadow: 15px 30px 5rem  20px hsl(211, 18%, 77%); opacity: 90% ; */
 }
 
+.content-right{
+    text-align: left;
+    background-color: rgba(158, 37, 206, 0.5);
+}
+
 .image{
     height: 30rem;
-    opacity: 40%;
+    opacity: 50%;
 }
 
 .content-left{
