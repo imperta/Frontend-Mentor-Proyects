@@ -1,5 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;600&display=swap');
 
+
+@media (max-width:375px){
+    .container{
+        font-size: 1.8rem;
+        flex-direction: column-reverse;
+        width: 100%;
+    }
+    img{
+        mix-blend-mode: multiply;
+        opacity: 75%;
+    }
+}
+
+
 header{
     font-size: 11px; text-align: center;
     color: hsl(228, 45%, 44%);
@@ -37,7 +51,7 @@ body{
 
 .image{
     height: 30rem;
-    filter: opacity(40%);
+    opacity: 40%;
 }
 
 .content-left{
@@ -46,7 +60,7 @@ body{
 
 .in{
     color: hsl(277, 64%, 61%);display: inline-block;
-    line-height: 1rem;
+    line-height: 6rem;
 }
 .title{
     margin-top:20px; margin-left: 60px; margin-right: 90px;  margin-bottom: 60px;
