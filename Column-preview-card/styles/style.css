@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&display=swap');
+
+.attribution{
+    font-size: 10px;
+    text-align: center; justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: hsl(184, 100%, 22%);
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    margin:0;
+    padding: 0;
+    background-color: rgb(122, 196, 138);
+}
+main{
+    font-family: 'Big Shoulders Display', cursive;
+}
+p{
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 16px;
+    margin-left: 40px;
+    margin-right: 47px;
+    line-height: 32px;
+    font-size: 15px;
+}
+h1{
+    margin-left: 40px;
+    font-size: 40px;
+}
+
+.images{
+    padding-top: 45px;
+    margin-left: 40px;
+}
+.content{
+    text-align: center; position: absolute;
+    transform: translate(-50%, -50%);top: 50%; left: 50%;
+    width: 60rem; height: 35rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: left;
+    color: white;
+}
+.sedan{
+    margin-left: 40px;
+    width: 18rem;
+    background-color: hsl(31, 77%, 52%);
+}
+.suv{
+    background-color: hsl(184, 100%, 22%);
+    width: 18rem;
+}
+.luxury{
+    background-color:hsl(179, 100%, 13%);
+    width: 18rem;
+    margin-right: 100px;
+}
+
+button{
+    font-family: 'Lexend Deca', sans-serif;
+    margin-top: 6rem;
+    margin-left: 40px;
+    background-color: white;
+    cursor: pointer;
+    border-radius: 40px;
+    height: 3rem;
+    width: 8rem;
+    display: inline-block;
+}
+
+.button-sedan:hover{
+    transition: 0.2s;
+    background-color: hsl(31, 77%, 52%);
+    color: white;
+    border-color: white;
+}
+.button-suv:hover{
+    transition: 0.2s;
+    background-color: hsl(184, 100%, 22%);
+    color: white;
+    border-color: white;
+}
+.button-lux:hover{
+    transition: 0.2s;
+    background-color: hsl(179, 100%, 13%);
+    color: white;
+    border-color: white;
+}
