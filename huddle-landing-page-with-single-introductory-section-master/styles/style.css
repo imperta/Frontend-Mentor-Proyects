@@ -46,7 +46,7 @@ main{
 }
 /* Contenido de la izquierda */
 .ilustration{
-    height: 24rem;
+    height: 30rem;
     margin-right: 1rem;
 }
 
@@ -71,47 +71,58 @@ h2{
 }
 
 button{
+    font-size: 16px;
     margin-top: 1rem;
     border: 0px;
     border-radius: 3rem;
     height: 3rem;
     width: 9rem;
-    color: white;
-    background-color: hsl(300, 69%, 71%);
+    color: rgb(0, 0, 0);
 }
-
 button:hover{
     transition: 0.4s;
+    background-color: hsl(300, 69%, 71%);
     color: black;
     box-shadow: 1px 1px 1rem  0px black; opacity: 90% ;
 }
 
 /* Pie de la pagina */
-
 .socials{
-    position:absolute; bottom: 0;
+    filter: invert();
+    right: 2rem;
+    position:absolute; 
+    bottom: 0;
     margin-bottom: 2rem;
     margin-left: 2rem;
 }
 
 main img{
-    height: 30px;
+    height: 35px;
     margin-left: 10px;
     filter:brightness()
 }
 
 
 .fb:hover{
-    border-radius: 90px;
-    box-shadow: 1px 1px 3rem  10px rgb(39, 158, 255); opacity: 90% ;
+    transition: 0.4s;
+    filter: invert();
+    fill: #ffffff;
+    border-radius: 1px;
+    box-shadow: 1px 1px 3rem  10px rgb(255, 255, 255); opacity: 90% ;
 }
 
 .tw:hover{
-    border-radius: 90px;
-    box-shadow: 1px 1px 3rem  10px rgb(12, 107, 184); opacity: 90% ;
+    transition: 0.4s;
+    filter: invert();
+    fill: #ffffff;
+    border-radius: 1px;
+    box-shadow: 1px 1px 3rem  10px rgb(255, 255, 255);  opacity: 90% ;
 }
 
 .ig:hover{
-    border-radius: 10px;
-    box-shadow: 1px 1px 3rem  10px rgb(176, 39, 255); opacity: 90% ;
+    transition: 0.4s;
+    filter: invert();
+    fill: #ffffff;
+    border-radius: 1px;
+    box-shadow: 1px 1px 3rem  10px rgb(255, 255, 255);  opacity: 90% ;
 }
